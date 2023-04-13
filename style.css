@@ -148,7 +148,7 @@ body{
 }
 
 /* animation  */
-/* .hero-bg-left img{
+.hero-bg-left img{
     animation: move-images 1000ms forwards ease-in-out;
     transform: translateX(-100%);
 }
@@ -176,7 +176,7 @@ body{
         transform: translateY(0);
         opacity: 1;
     }
-} */
+}
 
 .mobile-navigation, .close-menu, .mobile-menu, .mobile-bg-left, .mobile-bg-right{
     display: none;
