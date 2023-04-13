@@ -148,6 +148,16 @@ body{
 }
 
 /* animation  */
+.hero-bg-right img{
+    animation:move-reverse 1000ms forwards ease-in-out ;
+    transform: translateX(100%);
+}
+
+@keyframes move-reverse{
+    to{
+        transform: translateY(0);
+    }
+}
 .hero-bg-left img{
     animation: move-images 1000ms forwards ease-in-out;
     transform: translateX(-100%);
